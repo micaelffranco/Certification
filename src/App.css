@@ -13,6 +13,23 @@
   }
 }
 
+ul {
+ list-style-type: none;
+}
+
+hr {
+  border: 0;
+  clear:both;
+  display:block;
+  width: 100%;
+  background-color: #0b6aa0;
+  height: 3px;
+}
+
+label {
+  margin: 10px;
+}
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -22,6 +39,42 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+}
+
+.DivContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.DivColumn {
+  display: flex;
+  flex-direction: column;
+}
+
+.DivRow {
+  display: flex;
+  flex-direction: row;
+}
+
+.CertificateInfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin: 10px;
+}
+
+.Buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  margin: 10px;
+}
+
+.FStart {
+  display: flex;
+  justify-content: flex-start;
+  margin: 10px;
 }
 
 .App-link {
