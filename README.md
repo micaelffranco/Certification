@@ -1,15 +1,17 @@
-# Basic Sample Hardhat Project
+Certification App!
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, a sample script that deploys that contract, and an example of a task implementation, which simply lists the available accounts.
+This app Registers Certificates for an artwork and lists them.
 
-Try running some of the following tasks:
+This website uses this technologies:
 
-```shell
-npx hardhat accounts
-npx hardhat compile
-npx hardhat clean
-npx hardhat test
-npx hardhat node
-node scripts/sample-script.js
-npx hardhat help
+ReactJs
+Solidity
+
+
+With this project I reviewed:
+    Hardhat,
+    ReactJs, 
+    Connecting to Metamask, 
+    Solidity, 
+    IPFS
 ```
